@@ -34,29 +34,26 @@
             </a>
           </nav>
           <!-- Navbar Brand End -->
-
   <!-- Navbar Toggle button Start -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- Navbar Toggle button Ends -->
-
+  <!-- Navbar Toggle button Ends -->
   <!-- Navbar Menu Start -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
             <li class="nav-item"> <!-- Here if insert the class="ACTIVE" indicates that the nav will higliht or show that we are in the selected page, in dis case home. It should be the only "active" nav item for each correspondig page.-->
               <a class="nav-link" href="index.html#Top">Home<span class="sr-only">(current)</span></a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="index.html#Program-Overview">Program Overview</a><!-- Navbar Menu link jump to a specific part or section of a page (1st. div section needs an id, then in href place the name of the hmtl page and "#" with the idname of ths section, e.g.  href="index00-All.html#Greeting"-->
             </li>
-      <!-- Dropdown nav items Start-->
+      <!-- Pre-arrival page Nav tab Start (with dropdown menu)-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="index.html#Pre-arrival-Logistics" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pre-arrival Logistics
               </a>
+              <!-- Pre-arrival Nav tab dropdown items Start-->
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="index.html#Pre-arrival">About the Visa</a>
                 <a class="dropdown-item" href="index.html#Travel-Insurance">Travel Insurance</a>
@@ -65,10 +62,11 @@
                 <a class="dropdown-item" href="index.html#Weather">Weather in Niigata</a>
                 <a class="dropdown-item" href="index.html#Miscellaneous">Miscellaneous</a>
               </div>
+              <!-- Pre-arrival Nav tab dropdown items Ends-->
             </li>
-      <!-- Dropdown nav items End -->
+      <!-- Pre-arrival page Nav tab  End (with dropdown menu)-->
 
-      <!-- Dropdown nav items Start-->
+      <!-- Arrival page Nav tab Start (with dropdown menu)-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="index.html#Pre-arrival" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  Arrival
@@ -82,55 +80,57 @@
                 <a class="dropdown-item" href="index.html#Accommodations">Accommodations</a>
               </div>
             </li>
-      <!-- Dropdown nav items End -->
+      <!-- Arrival page Nav tab End (with dropdown menu)-->
 
-      <!-- Dropdown nav items Start-->
+      <!-- Orientation & Schedule page Nav tab Start (with dropdown menu)-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Orientation & Schedule
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="index.html#Orientation">Assigments</a>
-                <a class="dropdown-item" href="#">Report</a>
+                <a class="dropdown-item" href="index.html#Visiting_the_Clinic">Visiting the Clinic</a>
+                <a class="dropdown-item" href="index.html#travel insurance">Travel insurance</a>
+                <a class="dropdown-item" href="index.html#Orintation Internet">Internet</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Schedules</a>
+                <a class="dropdown-item" href="index.html#Schedule">Schedules</a>
               </div>
             </li>
-      <!-- Dropdown nav items End -->
+      <!-- Orientation & Schedule page Nav tab Start (with dropdown menu)-->
 
-      <!-- Dropdown nav items Start-->
+      <!-- Places and activities page Nav tab Start (with dropdown menu)-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="index.html#Pre-arrival-Logistics" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  Places and activities
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html#">link1</a>
-                <a class="dropdown-item" href="index.html#">link2</a>
-                <a class="dropdown-item" href="index.html#">link3</a>
+                <a class="dropdown-item" href="index.html#">Under construction</a>
+                <a class="dropdown-item" href="index.html#"></a>
+                <a class="dropdown-item" href="index.html#"></a>
               </div>
             </li>
-      <!-- Dropdown nav items End -->
+      <!-- Places and activities page Nav tab End (with dropdown menu)-->
 
-      <!-- Dropdown nav items Start-->
+      <!-- Connect with Peers page Nav tab Start (with dropdown menu)-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="index.html#Pre-arrival-Logistics" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  Connect with Peers
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="index.html#">Under construction</a>
                 <a class="dropdown-item" href="index.html#">2016</a>
                 <a class="dropdown-item" href="index.html#">2017</a>
                 <a class="dropdown-item" href="index.html#">2018</a>
               </div>
             </li>
-      <!-- Dropdown nav items End -->
-
+      <!-- Connect with Peers page Nav tab End (with dropdown menu)-->
 
             <li class="nav-item">
               <a class="nav-link" href="http://www.nuh.niigata-u.ac.jp/en_floormap.php" target="_blank">University Map </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="Contact01.html">Contact</a>
+              <a class="nav-link" href="index.html#Contact">Contact</a>
             </li>
 
           </ul>
@@ -999,62 +999,6 @@
           <hr>
           <div class="sidebarmenuitem"><a href="index.html#Schedule">Schedule</a></div>
           <hr>
-
-
-
-          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-          <div class="nav btn-info" data-toggle="collapse" data-target="#Example" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Link-02">Link-02</a>&#x25BC;</div>
-            <div id="Examplep5" class="collapse demo-collapse">
-              <ul style="text-decoration: none;">
-                <li><a href="index.html#Link-02-Sub01">Link-02-Sub01</a></li>
-                <li><a href="index.html#Link-02-Sub02">Link-02-Sub02</a></li>
-                <li><a href="index.html#Link-02-Sub03">Link-02-Sub03</a></li>
-              </ul>
-            </div>
-          <!-- Dropdown button End -->
-
-          <hr>
-
-          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-          <div class="nav btn-info" data-toggle="collapse" data-target="#x-02" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Link-03">Link-03</a> &#x25BC;</div>
-            <div id="x-02p5" class="collapse demo-collapse">
-              <ul style="text-decoration: none;">
-                <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-                <div class="nav btn-info" data-toggle="collapse" data-target="#x-03" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Airport-Niigata">1. Link-03-Sub01</a>&#x25BC;</div>
-                  <div id="x-03p5" class="collapse demo-collapse">
-                    <ul style="text-decoration: none;">
-                      <li><a href="index.html#Link-03-Sub01-Sub01">Link-03-Sub01-Sub01</a></li>
-                      <li><a href="index.html#Link-03-Sub01-Sub02">Link-03-Sub01-Sub02</a></li>
-                      <li><a href="index.html#Link-03-Sub01-Sub03">Link-03-Sub01-Sub03</a></li>
-                    </ul>
-                  </div>
-                <!-- Dropdown button End -->
-
-                <div class="sidebarmenuitem"><a href="index.html#Link-03-Sub02">2. Link-03-Sub02</a></div>
-              </ul>
-            </div>
-          <!-- Dropdown button End -->
-          <hr>
-          <div class="sidebarmenuitem"><a href="index.html#Arrival">Example</a></div>
-
-          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-          <div class="nav btn-info" data-toggle="collapse" data-target="#x-05" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;">Example2 &#x25BC;</div>
-            <div id="x-05p5" class="collapse demo-collapse">
-              <ul style="text-decoration: none;">
-                <li><a href="index.html#">Submenu</a>
-                  <ul>
-                    <li><a href="index.html#">link1</a></li>
-                    <li><a href="index.html#">link2</a></li>
-                    <li><a href="index.html#">link3</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          <!-- Dropdown button End -->
-
-          <hr>
-          <div class="sidebarmenuitem"><a href="index.html#">Another example</a></div>
-          <hr>
           <div class="sidebarmenuitem"><a href="index.html#Top">Top</a></div>
         </div>
        </div>
@@ -1129,7 +1073,8 @@
         <br>
         <div id="Schedule"><h2>Schedule</h2>
            <br>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <p>Activities schedule will be organized depending on the availability of each department professors, therefore changes and adjustment might occur during your stay. In those cases, students will be informed in advance or by mail/line.</p>
+           <p>In this section you can access the programed schedule for your stay. </p>
            <br>
          <!--HTML table Start https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro-->
            <table>
@@ -1187,124 +1132,11 @@
         <br>
         <hr>
         <br>
-
-
-      <hr>
-        <div id="Link-03-Sub01p5"><h4>Link-03-Sub01</h4></div>
-        <br>
-        <p>Tokyo has two airports, Narita International Airport (成田空港, Narita Kūkō, NRT), which handles a large number of international flights as well as domestic and international flights by many low-budget airlines, and the more centrally located Haneda Airport (羽田　空港, Haneda Kūkō, HND), which handles the city's main share of domestic traffic and an increasing number of international flights.</p>
-        <br>
-      <hr>
-        <div id="Link-03-Sub01-Sub01p5"><p><b>Link-03-Sub01-Sub01</b></p></div>
-        <br>
-        <p>Narita Airport is connected with central Tokyo by multiple rail and bus lines. </p>
-        <ul>
-          <li>JR <a href="http://www.jreast.co.jp/e/nex/index.html?src=t_info" target="_blank">Narita Express:</a>The Narita Express or N'EX. Please check <a href="http://www.jreast.co.jp/e/nex/tickets.html" target="_blank">Ticket prices</a> and <a href=" http://www.eki-net.com/pc/jreast-shinkansen-reservation/english/wb/common/timetable/e_nex_u/index.html" target="_blank">Time Tables</a>. </li>
-          <li>JR Sobu Line</li>
-          <li>Keisei Skyliner</li>
-        </ul>
-      <hr>
-        <br>
-        <p>For a complete guide click <a href="https://www.japan-guide.com/e/e2027.html" target="_blank">here</a>. </p>
-        <br>
-      <hr>
-        <div id="Link-03-Sub01-Sub02p5"><p><b>Link-03-Sub01-Sub02</b></p></div>
-        <br>
-        <p>Haneda Airport is connected with central Tokyo by.</p>
-        <ul>
-          <li>Tokyo <a href="http://www.tokyo-monorail.co.jp/english/" target="_blank">Monorail</a></li>
-          <li>Keikyu Railways</li>
-          <li>Limousine bus</li>
-        </ul>
-        <br>
-
-        <!--Video Start Copy & Pasted from YouTube-->
-        <div class="videoWrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/mt9HDxBvCmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <!--Video End Copy & Pasted from YouTube-->
-
-      <hr>
-      <div id="Link-03-Sub01-Sub03p5"><p><b>Link-03-Sub01-Sub03</b></p></div>
-        <br>
-        <p>Tokyo Station is one of the biggest and busiest station in the world. For the inexperienced traveler, commuting here can be challenging.</p>
-
-        <!-- PDF embed from assets Start-->
-          <embed src="assets/TokyoStation-Joetsu Train to Niigata.pdf#toolbar=0&navpanes=0" type="application/pdf" width="100%" height="700px" style=" display: block; margin-left: auto; margin-right: auto;" />
-        <!-- PDF embed from assets End-->
-
-        <!--Photo gallery Starts here taken from https://codepen.io/caraya/pen/NGoWKM?depth=everything&order=popularity&page=15&q=image+gallery+&show_forks=false-->
-        <div class="boxes">
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-01.jpg" alt="" />
-            <p>1. Narita Express train</p>
-          </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-02.jpg" alt="" />
-            <p>2. The Narita Express arrives on Sobu Rapid track #1 from NRT.</p>
-          </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-03.jpg" alt="" />
-            <p>3. Take the escalator to the basement 4.</p>
-          </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-04.jpg" alt="" />
-            <p>4. Then another one to the basement 1.</p>
-          </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-05.jpg" alt="" />
-            <p>5. Walk to the escalator.</p>
-          </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-06.jpg" alt="" />
-            <p>6. Go up to the ground level.</p>
-          </div>
-        </div>
-        <!--Photo gallery Ends here -->
-        <hr>
-
-        <!-- Map Starts Copy & Pasted from google maps -->
-        <div class="videoWrapper">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d414680.9564174859!2d139.79461870244367!3d35.70912313667028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2sTokyo+Station%2C+1+Chome+Marunouchi%2C+Chiyoda%2C+Tokyo!3m2!1d35.6811673!2d139.7670516!4m5!1s0x5ff4c99ae88a6b01%3A0x3b1d928b98b9a3ea!2sNiigata+Station%2C+1+Chome+Hanazono%2C+Chuo%2C+Niigata%2C+Niigata+Prefecture!3m2!1d37.9120208!2d139.0618713!5e0!3m2!1sen!2sjp!4v1520355349682" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <!-- Map Ends Copy & Pasted from google maps -->
-      <hr>
-
-        <div id="Link-03-Sub02p5"><p><b>Link-03-Sub02</b></p></div>
-        <br>
-        <p>Niigata Airport is located in a very accessible and convenient location, only 25 minutes away from JR Niigata Station by limousine bus and 10 minutes away from the nearest highway interchange. Niigata Prefecture's transportation network is well-developed, and both people living in Niigata and people living in neighboring prefectures make use of Niigata Airport for business travel and for going on vacation.</p>
-        <p><b>Arrival Procedures</b></p>
-        <br>
-
-        <!--minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/ -->
-        <div class="wrapper-02">
-          <div class="box-01 a">
-            <img src="img/e1137-01.jpg" alt="photo 1">
-            <div class="desc">Map 1. Waiting area (red dot).</div>
-          </div>
-          <div class="box-01 b">
-            <img src="img/meeting-point-01.jpg" alt="photo 1">
-            <div class="desc">Meeting area.</div>
-          </div>
-          <div class="box-01 c">
-            <img src="img/meeting-point-02.jpg" alt="photo 1">
-            <div class="desc">Meeting point.</div>
-          </div>
-          <div class="box-01 d">
-            <img src="img/e1137-2.jpg" alt="photo 1">
-            <div class="desc">Map 2. Walk form the waiting to the Bandai side bus station.</div>
-          </div>
-          <div class="box-01 e"></div>
-          <div class="box-01 f"></div>
-        </div>
-        <!--minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/ -->
-
         <!--Section block Template for future refereses Starts here -->
         <div id=""><h2></h2></div>
         <br>
         <p></p>
         <br>
-      <hr>
         <!--Section block Template for future refereses Ends here -->
       <hr>
 
@@ -1313,10 +1145,10 @@
   </div>
 </page4>
 
-<template-01>
+<page-05><!--Places and activities -->
   <div class="Wrapper1">
     <div class="grid1">
-      <div class="header" id="Title"> <h1>Title Here</h1></div>
+      <div class="header" id="Places and activities"> <h1>Places and activities</h1></div>
 
       <div class="sidebar">
 
@@ -1328,62 +1160,7 @@
 
         <div class="collapse-nav collapse Marcelo-side-menu" id="Page4"> <!-- class="Marcelo-side-menu" is nesseary for css display in large screens, id="Page1" is for the button to called an specific menu (cannot be a class)-->
 
-
-          <div class="sidebarmenuitem"><a href="index.html#Link-01">Link-01</a></div>
-          <hr>
-
-          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-          <div class="nav btn-info" data-toggle="collapse" data-target="#Example" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Link-02">Link-02</a>&#x25BC;</div>
-            <div id="Example" class="collapse demo-collapse">
-              <ul style="text-decoration: none;">
-                <li><a href="index.html#Link-02-Sub01">Link-02-Sub01</a></li>
-                <li><a href="index.html#Link-02-Sub02">Link-02-Sub02</a></li>
-                <li><a href="index.html#Link-02-Sub03">Link-02-Sub03</a></li>
-              </ul>
-            </div>
-          <!-- Dropdown button End -->
-
-          <hr>
-
-          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-          <div class="nav btn-info" data-toggle="collapse" data-target="#x-02" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Link-03">Link-03</a> &#x25BC;</div>
-            <div id="x-02" class="collapse demo-collapse">
-              <ul style="text-decoration: none;">
-                <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-                <div class="nav btn-info" data-toggle="collapse" data-target="#x-03" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Airport-Niigata">1. Link-03-Sub01</a>&#x25BC;</div>
-                  <div id="x-03" class="collapse demo-collapse">
-                    <ul style="text-decoration: none;">
-                      <li><a href="index.html#Link-03-Sub01-Sub01">Link-03-Sub01-Sub01</a></li>
-                      <li><a href="index.html#Link-03-Sub01-Sub02">Link-03-Sub01-Sub02</a></li>
-                      <li><a href="index.html#Link-03-Sub01-Sub03">Link-03-Sub01-Sub03</a></li>
-                    </ul>
-                  </div>
-                <!-- Dropdown button End -->
-
-                <div class="sidebarmenuitem"><a href="index.html#Link-03-Sub02">2. Link-03-Sub02</a></div>
-              </ul>
-            </div>
-          <!-- Dropdown button End -->
-          <hr>
-          <div class="sidebarmenuitem"><a href="index.html#Arrival">Example</a></div>
-
-          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-          <div class="nav btn-info" data-toggle="collapse" data-target="#x-05" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;">Example2 &#x25BC;</div>
-            <div id="x-05" class="collapse demo-collapse">
-              <ul style="text-decoration: none;">
-                <li><a href="index.html#">Submenu</a>
-                  <ul>
-                    <li><a href="index.html#">link1</a></li>
-                    <li><a href="index.html#">link2</a></li>
-                    <li><a href="index.html#">link3</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          <!-- Dropdown button End -->
-
-          <hr>
-          <div class="sidebarmenuitem"><a href="index.html#">Another example</a></div>
+          <div class="sidebarmenuitem"><a href="index.html#Link-01">Under construction</a></div>
           <hr>
           <div class="sidebarmenuitem"><a href="index.html#Top">Top</a></div>
         </div>
@@ -1391,377 +1168,189 @@
 
       <div class="content">
       <hr>
-        <div id="Link-01"><h2>Link-01</h2></div>
+        <div id="Link-01"><h2>Under construction</h2></div>
         <br>
-        <p><b>Bla, bla, bla</b></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br>
-      <hr>
-        <div id="Link-02"><h2>Link-02</h2></div>
-        <br>
-        <p id="Link-02-Sub01"><b>Link-02-Sub01</b></p>
-        <p>Lorem ipsum dolor sit amet,</p>
-        <p>For more information click <a href="https://www.japan-guide.com/e/e2361.html" target="_blank">here.</a></p>
-        <br>
-      <hr>
-        <div id="Link-02-Sub02"><p><b>Link-02-Sub02</b></p></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br>
-      <hr>
-      <div id="Link-02-Sub03"><p><b>Link-02-Sub03</b></p></div>
-        <p>Lorem ipsum dolor sit amet,</p>
-        <br>
-      <hr>
-        <div id="Link-03"><h2>Link-03</h2></div>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br>
-      <hr>
-        <div id="Link-03-Sub01"><h4>Link-03-Sub01</h4></div>
-        <br>
-        <p>Tokyo has two airports, Narita International Airport (成田空港, Narita Kūkō, NRT), which handles a large number of international flights as well as domestic and international flights by many low-budget airlines, and the more centrally located Haneda Airport (羽田　空港, Haneda Kūkō, HND), which handles the city's main share of domestic traffic and an increasing number of international flights.</p>
-        <br>
-      <hr>
-        <div id="Link-03-Sub01-Sub01"><p><b>Link-03-Sub01-Sub01</b></p></div>
-        <br>
-        <p>Narita Airport is connected with central Tokyo by multiple rail and bus lines. </p>
-        <ul>
-          <li>JR <a href="http://www.jreast.co.jp/e/nex/index.html?src=t_info" target="_blank">Narita Express:</a>The Narita Express or N'EX. Please check <a href="http://www.jreast.co.jp/e/nex/tickets.html" target="_blank">Ticket prices</a> and <a href=" http://www.eki-net.com/pc/jreast-shinkansen-reservation/english/wb/common/timetable/e_nex_u/index.html" target="_blank">Time Tables</a>. </li>
-          <li>JR Sobu Line</li>
-          <li>Keisei Skyliner</li>
-        </ul>
-      <hr>
-        <br>
-        <p>For a complete guide click <a href="https://www.japan-guide.com/e/e2027.html" target="_blank">here</a>. </p>
-        <br>
-      <hr>
-        <div id="Link-03-Sub01-Sub02"><p><b>Link-03-Sub01-Sub02</b></p></div>
-        <br>
-        <p>Haneda Airport is connected with central Tokyo by.</p>
-        <ul>
-          <li>Tokyo <a href="http://www.tokyo-monorail.co.jp/english/" target="_blank">Monorail</a></li>
-          <li>Keikyu Railways</li>
-          <li>Limousine bus</li>
-        </ul>
-        <br>
+  <hide><!-- Under construction
+          <p><b>Bla, bla, bla</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+        <hr>
+          <div id="Link-02"><h2>Link-02</h2></div>
+          <br>
+          <p id="Link-02-Sub01"><b>Link-02-Sub01</b></p>
+          <p>Lorem ipsum dolor sit amet,</p>
+          <p>For more information click <a href="https://www.japan-guide.com/e/e2361.html" target="_blank">here.</a></p>
+          <br>
+        <hr>
+          <div id="Link-02-Sub02"><p><b>Link-02-Sub02</b></p></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+        <hr>
+        <div id="Link-02-Sub03"><p><b>Link-02-Sub03</b></p></div>
+          <p>Lorem ipsum dolor sit amet,</p>
+          <br>
+        <hr>
+          <div id="Link-03"><h2>Link-03</h2></div>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+        <hr>
+          <div id="Link-03-Sub01"><h4>Link-03-Sub01</h4></div>
+          <br>
+          <p>Tokyo has two airports, Narita International Airport (成田空港, Narita Kūkō, NRT), which handles a large number of international flights as well as domestic and international flights by many low-budget airlines, and the more centrally located Haneda Airport (羽田　空港, Haneda Kūkō, HND), which handles the city's main share of domestic traffic and an increasing number of international flights.</p>
+          <br>
+        <hr>
+          <div id="Link-03-Sub01-Sub01"><p><b>Link-03-Sub01-Sub01</b></p></div>
+          <br>
+          <p>Narita Airport is connected with central Tokyo by multiple rail and bus lines. </p>
+          <ul>
+            <li>JR <a href="http://www.jreast.co.jp/e/nex/index.html?src=t_info" target="_blank">Narita Express:</a>The Narita Express or N'EX. Please check <a href="http://www.jreast.co.jp/e/nex/tickets.html" target="_blank">Ticket prices</a> and <a href=" http://www.eki-net.com/pc/jreast-shinkansen-reservation/english/wb/common/timetable/e_nex_u/index.html" target="_blank">Time Tables</a>. </li>
+            <li>JR Sobu Line</li>
+            <li>Keisei Skyliner</li>
+          </ul>
+        <hr>
+          <br>
+          <p>For a complete guide click <a href="https://www.japan-guide.com/e/e2027.html" target="_blank">here</a>. </p>
+          <br>
+        <hr>
+          <div id="Link-03-Sub01-Sub02"><p><b>Link-03-Sub01-Sub02</b></p></div>
+          <br>
+          <p>Haneda Airport is connected with central Tokyo by.</p>
+          <ul>
+            <li>Tokyo <a href="http://www.tokyo-monorail.co.jp/english/" target="_blank">Monorail</a></li>
+            <li>Keikyu Railways</li>
+            <li>Limousine bus</li>
+          </ul>
+          <br>
+    Video Start Copy & Pasted from YouTube
+          <div class="videoWrapper">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/mt9HDxBvCmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+    Video End Copy & Pasted from YouTube
+        <hr>
+        <div id="Link-03-Sub01-Sub03"><p><b>Link-03-Sub01-Sub03</b></p></div>
+          <br>
+          <p>Tokyo Station is one of the biggest and busiest station in the world. For the inexperienced traveler, commuting here can be challenging.</p>
 
-        <!--Video Start Copy & Pasted from YouTube-->
-        <div class="videoWrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/mt9HDxBvCmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <!--Video End Copy & Pasted from YouTube-->
+    PDF embed from assets Start
+            <embed src="assets/TokyoStation-Joetsu Train to Niigata.pdf#toolbar=0&navpanes=0" type="application/pdf" width="100%" height="700px" style=" display: block; margin-left: auto; margin-right: auto;" />
+    PDF embed from assets End
 
-      <hr>
-      <div id="Link-03-Sub01-Sub03"><p><b>Link-03-Sub01-Sub03</b></p></div>
-        <br>
-        <p>Tokyo Station is one of the biggest and busiest station in the world. For the inexperienced traveler, commuting here can be challenging.</p>
+    Photo gallery Starts here taken from https://codepen.io/caraya/pen/NGoWKM?depth=everything&order=popularity&page=15&q=image+gallery+&show_forks=false
+          <div class="boxes">
+            <div class="box box1">
+              <img src="img/TYOtoNGT/TYOtoNGT-01.jpg" alt="" />
+              <p>1. Narita Express train</p>
+            </div>
+            <div class="box box1">
+              <img src="img/TYOtoNGT/TYOtoNGT-02.jpg" alt="" />
+              <p>2. The Narita Express arrives on Sobu Rapid track #1 from NRT.</p>
+            </div>
+            <div class="box box1">
+              <img src="img/TYOtoNGT/TYOtoNGT-03.jpg" alt="" />
+              <p>3. Take the escalator to the basement 4.</p>
+            </div>
+            <div class="box box1">
+              <img src="img/TYOtoNGT/TYOtoNGT-04.jpg" alt="" />
+              <p>4. Then another one to the basement 1.</p>
+            </div>
+            <div class="box box1">
+              <img src="img/TYOtoNGT/TYOtoNGT-05.jpg" alt="" />
+              <p>5. Walk to the escalator.</p>
+            </div>
+            <div class="box box1">
+              <img src="img/TYOtoNGT/TYOtoNGT-06.jpg" alt="" />
+              <p>6. Go up to the ground level.</p>
+            </div>
+          </div>
+    Photo gallery Ends here
+          <hr>
 
-        <!-- PDF embed from assets Start-->
-          <embed src="assets/TokyoStation-Joetsu Train to Niigata.pdf#toolbar=0&navpanes=0" type="application/pdf" width="100%" height="700px" style=" display: block; margin-left: auto; margin-right: auto;" />
-        <!-- PDF embed from assets End-->
-
-        <!--Photo gallery Starts here taken from https://codepen.io/caraya/pen/NGoWKM?depth=everything&order=popularity&page=15&q=image+gallery+&show_forks=false-->
-        <div class="boxes">
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-01.jpg" alt="" />
-            <p>1. Narita Express train</p>
+    Map Starts Copy & Pasted from google maps
+          <div class="videoWrapper">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d414680.9564174859!2d139.79461870244367!3d35.70912313667028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2sTokyo+Station%2C+1+Chome+Marunouchi%2C+Chiyoda%2C+Tokyo!3m2!1d35.6811673!2d139.7670516!4m5!1s0x5ff4c99ae88a6b01%3A0x3b1d928b98b9a3ea!2sNiigata+Station%2C+1+Chome+Hanazono%2C+Chuo%2C+Niigata%2C+Niigata+Prefecture!3m2!1d37.9120208!2d139.0618713!5e0!3m2!1sen!2sjp!4v1520355349682" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-02.jpg" alt="" />
-            <p>2. The Narita Express arrives on Sobu Rapid track #1 from NRT.</p>
-          </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-03.jpg" alt="" />
-            <p>3. Take the escalator to the basement 4.</p>
-          </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-04.jpg" alt="" />
-            <p>4. Then another one to the basement 1.</p>
-          </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-05.jpg" alt="" />
-            <p>5. Walk to the escalator.</p>
-          </div>
-          <div class="box box1">
-            <img src="img/TYOtoNGT/TYOtoNGT-06.jpg" alt="" />
-            <p>6. Go up to the ground level.</p>
-          </div>
-        </div>
-        <!--Photo gallery Ends here -->
+    Map Ends Copy & Pasted from google maps
         <hr>
 
-        <!-- Map Starts Copy & Pasted from google maps -->
-        <div class="videoWrapper">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d414680.9564174859!2d139.79461870244367!3d35.70912313667028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2sTokyo+Station%2C+1+Chome+Marunouchi%2C+Chiyoda%2C+Tokyo!3m2!1d35.6811673!2d139.7670516!4m5!1s0x5ff4c99ae88a6b01%3A0x3b1d928b98b9a3ea!2sNiigata+Station%2C+1+Chome+Hanazono%2C+Chuo%2C+Niigata%2C+Niigata+Prefecture!3m2!1d37.9120208!2d139.0618713!5e0!3m2!1sen!2sjp!4v1520355349682" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <!-- Map Ends Copy & Pasted from google maps -->
-      <hr>
+          <div id="Link-03-Sub02"><p><b>Link-03-Sub02</b></p></div>
+          <br>
+          <p>Niigata Airport is located in a very accessible and convenient location, only 25 minutes away from JR Niigata Station by limousine bus and 10 minutes away from the nearest highway interchange. Niigata Prefecture's transportation network is well-developed, and both people living in Niigata and people living in neighboring prefectures make use of Niigata Airport for business travel and for going on vacation.</p>
+          <p><b>Arrival Procedures</b></p>
+          <br>
 
-        <div id="Link-03-Sub02"><p><b>Link-03-Sub02</b></p></div>
-        <br>
-        <p>Niigata Airport is located in a very accessible and convenient location, only 25 minutes away from JR Niigata Station by limousine bus and 10 minutes away from the nearest highway interchange. Niigata Prefecture's transportation network is well-developed, and both people living in Niigata and people living in neighboring prefectures make use of Niigata Airport for business travel and for going on vacation.</p>
-        <p><b>Arrival Procedures</b></p>
-        <br>
+    minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/
+          <div class="wrapper-02">
+            <div class="box-01 a">
+              <img src="img/e1137-01.jpg" alt="photo 1">
+              <div class="desc">Map 1. Waiting area (red dot).</div>
+            </div>
+            <div class="box-01 b">
+              <img src="img/meeting-point-01.jpg" alt="photo 1">
+              <div class="desc">Meeting area.</div>
+            </div>
+            <div class="box-01 c">
+              <img src="img/meeting-point-02.jpg" alt="photo 1">
+              <div class="desc">Meeting point.</div>
+            </div>
+            <div class="box-01 d">
+              <img src="img/e1137-2.jpg" alt="photo 1">
+              <div class="desc">Map 2. Walk form the waiting to the Bandai side bus station.</div>
+            </div>
+            <div class="box-01 e"></div>
+            <div class="box-01 f"></div>
+          </div>
+    minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/
 
-        <!--minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/ -->
-        <div class="wrapper-02">
-          <div class="box-01 a">
-            <img src="img/e1137-01.jpg" alt="photo 1">
-            <div class="desc">Map 1. Waiting area (red dot).</div>
-          </div>
-          <div class="box-01 b">
-            <img src="img/meeting-point-01.jpg" alt="photo 1">
-            <div class="desc">Meeting area.</div>
-          </div>
-          <div class="box-01 c">
-            <img src="img/meeting-point-02.jpg" alt="photo 1">
-            <div class="desc">Meeting point.</div>
-          </div>
-          <div class="box-01 d">
-            <img src="img/e1137-2.jpg" alt="photo 1">
-            <div class="desc">Map 2. Walk form the waiting to the Bandai side bus station.</div>
-          </div>
-          <div class="box-01 e"></div>
-          <div class="box-01 f"></div>
-        </div>
-        <!--minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/ -->
-
-        <!--Section block Template for future refereses Starts here -->
-        <div id=""><h2></h2></div>
-        <br>
-        <p></p>
-        <br>
-      <hr>
-        <!--Section block Template for future refereses Ends here -->
-      <hr>
-
+    Section block Template for future refereses Starts here
+          <div id=""><h2></h2></div>
+          <br>
+          <p></p>
+          <br>
+        <hr>
+    Section block Template for future refereses Ends here
+        <hr>
+    -->
+  </hide>
+      </div>
     </div>
   </div>
-  </div>
-</template-01>
+</page-05>
 
-
-<pagetry>
+<page-06><!--Contact -->
   <div class="Wrapper1">
     <div class="grid1">
-      <div class="header" id="Pre-arrivalX"> <h1>Pre-arrival Logistics</h1></div>
+      <div class="header" id="Contact"> <h1>Contact</h1></div>
 
       <div class="sidebar">
 
-      <!-- Navbar Toggle button Start
-        <button class="navbar-toggler navbar-light" id="Toggle-button" type="button" data-toggle="collapse" data-target="#Toggle-side-menu" aria-controls="Toggle-side-menu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        Navbar Toggle button Ends -->
+        <!-- Navbar Toggle button Start  from: https://getbootstrap.com/docs/4.0/components/navbar/-->
+          <button class="navbar-toggler navbar-light Marcelo-side-toggle-button" id="" type="button" data-toggle="collapse" data-target="#Page4" aria-controls="Marcelo-side-menu" aria-expanded="false" aria-label="Toggle navigation"> <!-- Navbar Toggle button "data-target" has to be the same name as side menu down to call and load. -->
+          <span class="navbar-toggler-icon"></span>
+          </button><!-- the class="Marcelo-side-toggle-button" is for calling css display:none; in large screens-->
+        <!-- Navbar Toggle button Ends -->
 
-      <!-- Navbar Toggle-->
-        <nav class="navbar navbar-light" id="collapse-nav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Toggle-side-menu" aria-controls="Toggle-side-menu" aria-expanded="true" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
-        <!--Navbar Toggle button Ends -->
+        <div class="collapse-nav collapse Marcelo-side-menu" id="Page7"> <!-- class="Marcelo-side-menu" is nesseary for css display in large screens, id="Page1" is for the button to called an specific menu (cannot be a class)-->
 
-        <div class="collapse-nav collapse" id="Toggle-side-menu">
-          <div class="sidebarmenuitem"><a href="index.html#Pre-arrivalX">About the Visa</a></div>
+          <div class="sidebarmenuitem"><a href="index.html#Contact">Contact</a></div>
           <hr>
-          <div class="sidebarmenuitem"><a href="index.html#Travel-Insurance">Travel Insurance</a></div>
-          <hr>
-          <!-- Dropdown menu Starts !Taken form the main nav at the top.-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="index.html#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white; text-decoration: none;">
-              Pre-arrival Logistics
-            </a>
-            <div id="this-collapse">
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html#Pre-arrival-Logistics">Visa</a>
-                <a class="dropdown-item" href="index.html#Travel-Insurance">Travel Insurance</a>
-                <a class="dropdown-item" href="index.html#Packing-advice">Packing advice</a>
-                <a class="dropdown-item" href="index.html#Wear-and-Dress">Wear & Dress code</a>
-                <a class="dropdown-item" href="index.html#Weather">Weather</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="index.html#Miscellaneous">Miscellaneous</a>
-              </div>
-            </div>
-          </li>
-          <!-- Dropdown menu End -->
-
-          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-          <div class="nav btn-info" data-toggle="collapse" data-target="#demo" style="background-color: #008555;">Simple collapsible &#x25BC;</div>
-            <div id="demo" class="collapse">
-              <ul>
-                <li><a href="">JR Pass</a></li>
-                <li><a href="">IC Cards</a></li>
-                <li><a href="">Train tickets</a></li>
-                <li><a href="">Bus tickets</a></li>
-              </ul>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-          <!-- Dropdown button End -->
-
-          <div class="sidebarmenuitem"><a href="index.html#Packing-advice">Packing advice</a></div>
-          <hr>
-          <div class="sidebarmenuitem"><a href="index.html#Wear-and-Dress">Wear & Dress code</a></div>
-          <div class="collapse-nav collapse Marcelo-side-menu" id="PageX"> <!-- class="Marcelo-side-menu" is nesseary for css display in large screens, id="Page1" is for the button to called an specific menu (cannot be a class)-->
-
-
-            <div class="sidebarmenuitem"><a href="index.html#Arrival">Commute</a></div>
-            <hr>
-            <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-            <div class="nav btn-info" data-toggle="collapse" data-target="#demo-x1" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;">Tickets and Passes &#x25BC;</div>
-              <div id="demo-x1" class="collapse demo-collapse">
-                <ul style="text-decoration: none;">
-                  <li><a href="JR-Pass">JR Pass</a></li>
-                  <li><a href="">IC Cards</a></li>
-                  <li><a href="">Train tickets</a></li>
-                  <li><a href="">Bus tickets</a></li>
-                </ul>
-              </div>
-            <!-- Dropdown button End -->
-            <hr>
-            <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-            <div class="nav btn-info" data-toggle="collapse" data-target="#demo-x20" style="background-color: rgba(#008555, 0);">Highway Buses &#x25BC;</div>
-              <div id="demo-x20" class="collapse demo-collapse">
-                <ul style="text-decoration: none;">
-                  <li><a href="">Willer Express</a></li>
-                  <li><a href="">JR Bus</a></li>
-                  <li><a href="">Japan Bus</a></li>
-                  <li><a href="">Queue lines</a></li>
-                </ul>
-              </div>
-            <!-- Dropdown button End -->
-            <hr>
-            <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
-            <div class="nav btn-info" data-toggle="collapse" data-target="#demo-x3" style="background-color: #008555;">Getting to Niigata &#x25BC;</div>
-              <div id="demo-x3" class="collapse demo-collapse">
-                <ul style="text-decoration: none;">
-                  <li><a href="">From the Airport to Niigata</a>
-                    <ul>
-                      <li><a href="">From Narita Airport</a></li>
-                      <li><a href="">From Haneda Airport</a></li>
-                      <li><a href="">From Tokyo Station to Niigata Station</a></li>
-                      <li><a href="">Transfer Narita Express to Joetsu Shinkansen</a></li>
-                      <li><a href="">From Niigata Airport to Niigata Station</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="">From Niigata Station to University Hospital</a></li>
-                  <li><a href="">Accommodations</a></li>
-                    <ul>
-                      <li><a href="">Kouraku kaikan guesthouse 康楽会館</a></li>
-                      <li><a href="">Country Hotel Niigataカントリーホテル新潟</a></li>
-                    </ul>
-                  <li><a href="">Taking the bus to Asahimachi campus</a></li>
-                </ul>
-              </div>
-            <!-- Dropdown button End -->
-            <hr>
-            <div class="sidebarmenuitem"><a href="index.html#"></a></div>
-            <hr>
-          </div>
-         </div>
-
+          <div class="sidebarmenuitem"><a href="index.html#Top">Top</a></div>
         </div>
-
-        <div class="content">
-          <div id=""><h2>About the Visa</h2></div>
-          <br>
-          <p>As of July 2017, Japan has taken measures concerning the Visa Exemption Arrangements with 68 countries and regions.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-
-          <hr>
-
-
-        <hr>
-        <!--Layout columns Start https://getbootstrap.com/docs/4.0/layout/grid/-->
-          <div class="container" id="Layout-columns">
-            <div class="row">
-              <div class="col">Column 1
-                <img src="img/Flag-Bolivia.jpg" alt="photo 1">
-                <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-              </div>
-              <div class="col">Column 2
-                <img src="img/Flag-Bolivia.jpg" alt="photo 1">
-                <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-              </div>
-
-              <div class="w-100"></div>
-
-              <div class="col">Column 3
-                <img src="img/Flag-Bolivia.jpg" alt="photo 1">
-                <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-              </div>
-              <div class="col">Column 4
-                <img src="img/Flag-Bolivia.jpg" alt="photo 1">
-                <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-              </div>
-            </div>
-          </div>
-          <!--Layout columns original code, no need of the container https://getbootstrap.com/docs/4.0/layout/grid/-->
-          <div class="container">
-            <div class="row">
-              <div class="col">Column</div>
-              <div class="col">Column</div>
-              <div class="w-100"></div>
-              <div class="col">Column</div>
-              <div class="col">Column</div>
-            </div>
-          </div>
-        <!--Layout columns End https://getbootstrap.com/docs/4.0/layout/grid/-->
-
-
-        <hr>
-        <!--minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/ -->
-        <div class="wrapper-02">
-        <div class="box-01 a">
-          <img src="img/Flag-Bolivia.jpg" alt="photo 1">
-          <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, </div>
-        </div>
-        <div class="box-01 b">B</div>
-        <div class="box-01 c">C</div>
-        <div class="box-01 d">D</div>
-        <div class="box-01 e">E</div>
-        <div class="box-01 f">F</div>
-        <div class="box-01 g">G</div>
-        <div class="box-01 h">H</div>
-        <div class="box-01 i">I</div>
-        </div>
-        <!--minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/ -->
-
-
-      </div><!--/*End content*/-->
-    </div><!--/*End grid1*/-->
-  </div> <!--/*End Wrapper1*/-->
-</pagetry>
-<!-- -->
-
-
-
-
-
-          <label for=""></label>
-          <p></p>
-
-
-
-
-
-
-
-
-
-
-
+       </div>
+      <div class="content">
+        <div id="Contact-Content"><h2>Contact Information:</h2></div>
+        <br>
+        <p><b>Chief of the student exchange program:</b> Prof. UOSHIMA Katsumi (fish@dent.niigata-u.ac.jp)</p>
+        <p><b>Supporters:</b></p>
+        <ul>
+          <li>Dr. ISHIDA Yoko (yishida@dent.niigata-u.ac.jp)</li>
+          <li>Dr. ROSALES Marcelo (marcelo@dent.niigata-u.ac.jp)</li>
+        </ul>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</page-06>
 
 
 <p id="page-top" style="bottom: 10px;"><a href="#Top">BACK TO TOP</a></p>
@@ -1773,7 +1362,7 @@
     <a href="https://www.niigata-u.ac.jp/en/" target="_blank">
       <img src="img/logo-english-footer-white.svg" alt="logo">
     </a>
-    <p id="Copy-right">© Niigata University</p>
+    <p id="Copy-right">© Niigata University 2018 JMRR</p>
   </div>
 </footer>
 
