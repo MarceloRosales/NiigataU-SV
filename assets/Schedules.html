@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<input type="button" class="btn btn-default btn-lg" value="Log In" onClick="passWord()">
+<script>
+function password() {
+  var testV = 1;
+  var pass1 = prompt('Enter Your Password', ' ');
+  while (testV < 3) {
+    if (!pass1)
+      history.go(-1);
+    if (pass1.toLowerCase() == "Guest") {
+      alert('Password Correct');
+      window.open("assets/3月5日～3月9日：SS2017program _Thammasat U in Mar2018.htm");
+      break;
+    }
+    testV += 1;
+    var pass1 =
+      prompt('Access Denied - Password Incorrect, Please Try Again.', 'Password');
+  }
+  if (pass1.toLowerCase() != "password" & testV == 3)
+    history.go(-1);
+  return " ";
+}
+</script>
+
+  </head>
+  <body>
+    <h1>SSVP Schedules</h1>
+    <br>
+    <div id="Schedule"><h2>Schedule</h2>
+       <br>
+       <p>Activities schedule will be organized depending on the availability of each department professors, therefore changes and adjustment might occur during your stay. In those cases, students will be informed in advance or by mail/line.</p>
+       <p>In this section you can access the programed schedule for your stay. </p>
+       <br>
+     <!--HTML table Start https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro-->
+       <table>
+          <tr>
+            <th>Period</th> <!--table header -->
+            <th>Country</th>
+            <th>University</th>
+            <th>Schedule</th>
+          </tr>
+          <tr>
+            <td>2018/03/3rd ~ 11th</td>
+            <td>Thailand</td>
+            <td>Thammasat University</td> <!--Link to the photogallery-->
+            <td><a href="Schedules/3月5日～3月9日：SS2017program _Thammasat U in Mar2018.htm" target="_blank">Available</a></td> <!--Save schedule xls file to web.htm and save in assets-->
+          </tr>
+          <tr>
+            <td>2018/03/11th ~ 20th</td>
+            <td>Canada</td>
+            <td><a href="" target="_blank">University of British Columbia</a></td> <!--Link to the photogallery-->
+            <td><a href="" target="_blank"> available </a>No</td> <!--Save schedule xls file to web.htm and save in assets-->
+          </tr>
+          <tr>
+            <td>2018/03/14th ~ 24th</td>
+            <td>Indonesia</td>
+            <td><a href="https://en.wikipedia.org/wiki/Airlangga_University" target="_blank">Airlangga University</a></td>
+            <td><a href="#">available </a>No</td>
+          </tr>
+          <tr>
+            <td>2018/03/19th ~ 30th</td>
+            <td>Thailand</td>
+            <td>Prince of Songkla University</td>
+            <td><a href="#" target="_blank">available </a>No</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+     <!--HTML table Ends https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro-->
+    </div>
+
+   </body>
+</html>
